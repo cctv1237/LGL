@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[BSGridCalculator doGridCalculate]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator markCell:::]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator setGridBlocks:]:BSGridCalculator.h">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator locateBlock:]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator printMatrix]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator initFreePlace]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator disMatrix]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator appendNewLine:]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator doLocate]:BSGridCalculator.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[BSGridCalculator gridFreeSpaces]:BSGridCalculator.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

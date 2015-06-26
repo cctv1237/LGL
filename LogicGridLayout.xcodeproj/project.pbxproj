@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		AB488BC01B3BE9F300EDE752 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB488BBF1B3BE9F300EDE752 /* main.m */; };
+		AB488BCE1B3BEAA600EDE752 /* BSGridBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = AB488BC71B3BEAA600EDE752 /* BSGridBlock.m */; };
+		AB488BCF1B3BEAA600EDE752 /* BSGridFreeSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = AB488BC91B3BEAA600EDE752 /* BSGridFreeSpace.m */; };
+		AB488BD01B3BEAA600EDE752 /* BSGridPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = AB488BCB1B3BEAA600EDE752 /* BSGridPosition.m */; };
+		AB488BD11B3BEAA600EDE752 /* BSGridRect.m in Sources */ = {isa = PBXBuildFile; fileRef = AB488BCD1B3BEAA600EDE752 /* BSGridRect.m */; };
+		AB6C2BB31B3BED630077E950 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6C2BB21B3BED630077E950 /* CoreGraphics.framework */; };
+		AB6C2BB61B3BFF050077E950 /* BSGridCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6C2BB51B3BFF050077E950 /* BSGridCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,17 @@
 /* Begin PBXFileReference section */
 		AB488BBC1B3BE9F300EDE752 /* LogicGridLayout */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LogicGridLayout; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB488BBF1B3BE9F300EDE752 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB488BC61B3BEAA600EDE752 /* BSGridBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGridBlock.h; sourceTree = "<group>"; };
+		AB488BC71B3BEAA600EDE752 /* BSGridBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGridBlock.m; sourceTree = "<group>"; };
+		AB488BC81B3BEAA600EDE752 /* BSGridFreeSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGridFreeSpace.h; sourceTree = "<group>"; };
+		AB488BC91B3BEAA600EDE752 /* BSGridFreeSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGridFreeSpace.m; sourceTree = "<group>"; };
+		AB488BCA1B3BEAA600EDE752 /* BSGridPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGridPosition.h; sourceTree = "<group>"; };
+		AB488BCB1B3BEAA600EDE752 /* BSGridPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGridPosition.m; sourceTree = "<group>"; };
+		AB488BCC1B3BEAA600EDE752 /* BSGridRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGridRect.h; sourceTree = "<group>"; };
+		AB488BCD1B3BEAA600EDE752 /* BSGridRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGridRect.m; sourceTree = "<group>"; };
+		AB6C2BB21B3BED630077E950 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB6C2BB41B3BFF050077E950 /* BSGridCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSGridCalculator.h; sourceTree = "<group>"; };
+		AB6C2BB51B3BFF050077E950 /* BSGridCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSGridCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6C2BB31B3BED630077E950 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +59,7 @@
 		AB488BB31B3BE9F300EDE752 = {
 			isa = PBXGroup;
 			children = (
+				AB6C2BB21B3BED630077E950 /* CoreGraphics.framework */,
 				AB488BBE1B3BE9F300EDE752 /* LogicGridLayout */,
 				AB488BBD1B3BE9F300EDE752 /* Products */,
 			);
@@ -57,6 +76,16 @@
 		AB488BBE1B3BE9F300EDE752 /* LogicGridLayout */ = {
 			isa = PBXGroup;
 			children = (
+				AB488BC61B3BEAA600EDE752 /* BSGridBlock.h */,
+				AB488BC71B3BEAA600EDE752 /* BSGridBlock.m */,
+				AB488BCA1B3BEAA600EDE752 /* BSGridPosition.h */,
+				AB488BCB1B3BEAA600EDE752 /* BSGridPosition.m */,
+				AB488BCC1B3BEAA600EDE752 /* BSGridRect.h */,
+				AB488BCD1B3BEAA600EDE752 /* BSGridRect.m */,
+				AB488BC81B3BEAA600EDE752 /* BSGridFreeSpace.h */,
+				AB488BC91B3BEAA600EDE752 /* BSGridFreeSpace.m */,
+				AB6C2BB41B3BFF050077E950 /* BSGridCalculator.h */,
+				AB6C2BB51B3BFF050077E950 /* BSGridCalculator.m */,
 				AB488BBF1B3BE9F300EDE752 /* main.m */,
 			);
 			path = LogicGridLayout;
@@ -88,6 +117,7 @@
 		AB488BB41B3BE9F300EDE752 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BS;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Beauty Sight Network Technology Co.,Ltd";
 				TargetAttributes = {
@@ -118,7 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB488BCE1B3BEAA600EDE752 /* BSGridBlock.m in Sources */,
+				AB488BD11B3BEAA600EDE752 /* BSGridRect.m in Sources */,
+				AB488BCF1B3BEAA600EDE752 /* BSGridFreeSpace.m in Sources */,
 				AB488BC01B3BE9F300EDE752 /* main.m in Sources */,
+				AB6C2BB61B3BFF050077E950 /* BSGridCalculator.m in Sources */,
+				AB488BD01B3BEAA600EDE752 /* BSGridPosition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +270,7 @@
 				AB488BC51B3BE9F300EDE752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
