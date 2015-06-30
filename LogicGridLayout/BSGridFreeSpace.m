@@ -105,7 +105,7 @@
      NSMutableArray *producedGridFreeSpaces = [[NSMutableArray alloc] initWithCapacity:1];
     
     if (gridRect.colEnd < self.colEnd) {
-        [producedGridFreeSpaces addObject:[[BSGridFreeSpace alloc] initWithRowStart:self.rowStart
+        [producedGridFreeSpaces addObject:[[BSGridFreeSpace alloc] initWithRowStart:gridRect.rowStart
                                                                            ColStart:gridRect.colEnd
                                                                             ColSpan:self.colEnd - gridRect.colEnd]];
     }
@@ -120,7 +120,7 @@
     
     NSMutableArray *producedGridFreeSpaces = [[NSMutableArray alloc] initWithCapacity:1];
     if (gridRect.colStart > self.colStart) {
-        [producedGridFreeSpaces addObject:[[BSGridFreeSpace alloc] initWithRowStart:self.rowStart
+        [producedGridFreeSpaces addObject:[[BSGridFreeSpace alloc] initWithRowStart:gridRect.rowStart
                                                                            ColStart:self.colStart
                                                                             ColSpan:gridRect.colStart - self.colStart]];
     }

@@ -14,7 +14,7 @@
 
 #define MAX_COL_COUNT 6
 #define MAX_ROW_COUNT 1000
-#define INITIAL_CONTENT @"0"
+#define INITIAL_CONTENT @"."
 
 @interface BSGridCalculator ()
 
@@ -98,6 +98,8 @@
 
 - (BSGridRect *)locateBlock:(BSGridBlock *)gridBlock {
     
+    NSMutableArray *freePlacesToDelete = [[NSMutableArray alloc] init];
+    
     BSGridPosition *gridPosition = nil;
     if (self.gridFreeSpaces != nil && self.gridFreeSpaces.count > 0) {
         for (BSGridFreeSpace *free in self.gridFreeSpaces) {
@@ -106,6 +108,13 @@
                                                                             ColumnStart:free.colStart];
                 break;
             }
+            else {
+                [freePlacesToDelete addObject:free];
+            }
+        }
+        
+        for (BSGridFreeSpace *freePlace in freePlacesToDelete) {
+            [self.gridFreeSpaces removeObject:freePlace];
         }
     }
     

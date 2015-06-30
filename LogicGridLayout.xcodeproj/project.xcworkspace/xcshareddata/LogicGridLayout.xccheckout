@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79E71E91-6E98-4C9A-B833-9A02FCCE323C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LogicGridLayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E1A489560E9E6B7849928CC448132E7991E4DB5F</key>
+		<string>https://github.com/cctv1237/LGL.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LogicGridLayout.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E1A489560E9E6B7849928CC448132E7991E4DB5F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/cctv1237/LGL.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E1A489560E9E6B7849928CC448132E7991E4DB5F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E1A489560E9E6B7849928CC448132E7991E4DB5F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LogicGridLayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>
